@@ -9,7 +9,8 @@ public class CheckVowelConsonant {
         System.out.println("enter alphabate");
         String input = v.next();
 
-        if (input.equalsIgnoreCase("a") || input.equalsIgnoreCase("e") || input.equalsIgnoreCase("i") || input.equalsIgnoreCase("o") || input.equalsIgnoreCase("u")) {
+        if (input.equalsIgnoreCase("a") || input.equalsIgnoreCase("e") || input.equalsIgnoreCase("i")
+                || input.equalsIgnoreCase("o") || input.equalsIgnoreCase("u")) {
             System.out.println("vowel");
 
         } else {
