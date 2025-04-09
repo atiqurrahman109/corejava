@@ -13,9 +13,9 @@ public class CalculateAreaOfCircle {
         System.out.println("enter radious");
         float input=c.nextFloat();
         
-        if(radious>=0){
+        if(input>=0){
             System.out.println("enter positive value");
-             input=c.nextFloat();
+              input=c.nextFloat();
              float result=Math.PI* Math.pow(radious, 2);       
             System.out.println(""+result);     
         }
