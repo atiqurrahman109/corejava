@@ -1,24 +1,27 @@
 
 package convert.mint;
 
+import java.util.Scanner;
+
 public class ConvertMint {
 
   
     public static void main(String[] args) {
         
-        scanner scanner=new scanner System;
+        Scanner s=new Scanner(System.in);
         
-        System.out.printin(enter second);
+        System.out.println("input");
                 
-         int totalseconds=scanner.nextint();
+         float totalseconds=s.nextFloat();
                  
-        int hour=totalseconds/3600;
-        int remainingseconds=totalseconds%3600;
+        float hour=totalseconds/3600;
         
-          int mint=ramainingsecond / 60;
-          int   ramainingsecond %60;
+        float remainingseconds=totalseconds%3600;
+        
+         float mint =remainingseconds / 60;
+         float currentSecond= mint %60;
           
-          System.out.println(totalseconds+"seconds="+hours+"hours=,"+ minutes+"minutes=");
+          System.out.println(totalseconds+"seconds="+hour+" hours="+ mint+"minutes="+currentSecond+ " seconds ");
         
       
     }

@@ -12,8 +12,9 @@ public class CheckVowelConsonant {
         if (input.equalsIgnoreCase("a") || input.equalsIgnoreCase("e") || input.equalsIgnoreCase("i")
                 || input.equalsIgnoreCase("o") || input.equalsIgnoreCase("u")) {
             System.out.println("vowel");
-
-        } else {
+                                             } 
+      
+        else {
             System.out.println("consonent");
         }
 

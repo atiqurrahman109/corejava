@@ -18,5 +18,14 @@
 /convert mint/nbproject/private/
 /currentTime/nbproject/private/
 /usescanner library/nbproject/private/
+<<<<<<< HEAD
 /usescanner library/build/
 /GradeCalculator/build/
+=======
+/AreaTraingle/build/
+/convert mint/build/
+/class work/nbproject/private/
+/class work/build/
+/ClassWwork2/nbproject/private/
+/ClassWwork2/build/
+>>>>>>> db3aba9028a1ca08c69197d699e130fd39e41e98
