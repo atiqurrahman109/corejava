@@ -10,16 +10,16 @@ public class UseContinue {
     public static void main(String[] args) {
 //        Scanner s=new Scanner(System.in);
         int targetValue=100;
-                int counter=1;
+                int count=1;
                 
-                while(targetValue>=counter){
+                while(targetValue>=count){
                     
-                    if(counter % 2 == 0 && counter % 4 == 0){
-                        counter++;
+                    if(count % 2 == 0 && count % 4 == 0){
+                        count++;
                         continue;
                     }
-                    System.out.println(counter+" Numbers ");
-                    counter++;
+                    System.out.println(count+" Numbers ");
+                    count++;
                 }
                 
                 
