@@ -21,7 +21,9 @@ public class Factorial {
             do {
                 factorial *= count;
                 count++;
-            } while (count <= input);
+            }
+            
+            while (count <= input);
         }
 
         System.out.println("factorail" + "    " + factorial);
