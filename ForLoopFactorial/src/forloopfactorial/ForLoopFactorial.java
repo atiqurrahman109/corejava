@@ -15,10 +15,11 @@ public class ForLoopFactorial {
 
         for (i = 1; i <= input; i++) {
             factorial *= i;
+            
 
         }
 
-        System.out.println("factorial");
+        System.out.println(factorial+" factorial");
 
     }
 
