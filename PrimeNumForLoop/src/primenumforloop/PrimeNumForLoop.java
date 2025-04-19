@@ -1,4 +1,4 @@
-package primenumforloop;
+ package primenumforloop;
 
 import java.util.Scanner;
 
@@ -6,8 +6,11 @@ public class PrimeNumForLoop {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+      
+        
         System.out.println("enter number");
         int input = s.nextInt();
+         
 
         int count = 0;
         

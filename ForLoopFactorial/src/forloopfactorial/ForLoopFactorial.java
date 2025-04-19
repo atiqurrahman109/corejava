@@ -10,10 +10,10 @@ public class ForLoopFactorial {
         System.out.println("enter number");
         int input = s.nextInt();
 
-        int i = 1;
+//        int i = 1;
         int factorial = 1;
 
-        for (i = 1; i <= input; i++) {
+        for (int i = 1; i <= input; i++) {
             factorial *= i;
             
 
