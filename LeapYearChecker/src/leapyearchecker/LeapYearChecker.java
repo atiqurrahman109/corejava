@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class LeapYearChecker {
 
     public static void main(String[] args) {
-        Scanner l = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         
         System.out.println("input value");
-        double input = l.nextDouble();
+        double input = s.nextDouble();
        
         
         if ((input % 4 == 0) && (input % 100 != 0) || (input % 400 == 0)) {

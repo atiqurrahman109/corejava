@@ -11,10 +11,16 @@ public class PositiveNegZero {
         Scanner p=new  Scanner(System.in);
         System.out.println("input number");
         float input=p.nextFloat();
+       
         if(input<0){
             System.out.println("negative");
             }
-            else {
+       
+        else if(input==0){
+        System.out.println("zero");
+        }
+       
+        else {
              System.out.println("positive");
          }   
         

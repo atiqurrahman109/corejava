@@ -1,16 +1,14 @@
 
-package bubblesort;
+package bubbleexam;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class BubbleSort {
+public class BubbleExam {
 
-  
+   
     public static void main(String[] args) {
-        
-        
     
         Scanner scan=new Scanner(System.in);
 
@@ -38,6 +36,8 @@ public class BubbleSort {
             }
         }
         System.out.println("Array before sorting: " + Arrays.toString(myArray));
+        
+        
         
         
     }
