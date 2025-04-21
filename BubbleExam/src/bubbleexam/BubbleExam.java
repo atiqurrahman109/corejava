@@ -1,16 +1,13 @@
-
 package bubbleexam;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-
 public class BubbleExam {
 
-   
     public static void main(String[] args) {
-    
-        Scanner scan=new Scanner(System.in);
+
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter your array size: ");
         int arraySize = scan.nextInt();
@@ -27,8 +24,8 @@ public class BubbleExam {
 
         for (int round = 0; round < myArray.length - 1; round++) {
             for (int step = 0; step < myArray.length - 1 - round; step++) {
-                if (myArray[step]>myArray[step+1]) {
-                    
+                if (myArray[step] > myArray[step + 1]) {
+
                     int temp = myArray[step + 1];
                     myArray[step + 1] = myArray[step];
                     myArray[step] = temp;
@@ -36,10 +33,7 @@ public class BubbleExam {
             }
         }
         System.out.println("Array before sorting: " + Arrays.toString(myArray));
-        
-        
-        
-        
+
     }
-    
+
 }
