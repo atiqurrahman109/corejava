@@ -63,6 +63,10 @@
 /multiArrays/build/
 /LearnClassObject/nbproject/private/
 /multiArrays/dist/
+<<<<<<< HEAD
+/PrimeNumber2/nbproject/private/
+/PrimeNumber2/build/
+=======
 /LearnClassObject/build/
 /fibonnai/build/
 /primeNumberClass/nbproject/private/
@@ -72,6 +76,7 @@
 /Greater5Number/nbproject/private/
 /Greater5Number/build/
 /GreatestTwoNumbers/build/
+<<<<<<< HEAD
 /leapPract/nbproject/private/
 /leapPract/build/
 /FibonacciExam/nbproject/private/
@@ -83,3 +88,6 @@
 /PrimeExam/build/
 /MaxMinExam/build/
 /Price200/build/
+=======
+>>>>>>> 2a16119379c34e568fdac8f280630319d2820c0b
+>>>>>>> a5b24bfce007a60ad00935dddbec88cd7aa3d8ed
