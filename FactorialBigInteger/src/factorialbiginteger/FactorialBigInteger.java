@@ -1,20 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package factorialbiginteger;
 
-/**
- *
- * @author Admin
- */
+import java.math.BigInteger;
+import java.util.Scanner;
+
 public class FactorialBigInteger {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Scanner s = new Scanner(System.in);
+        int userinput = s.nextInt();
+
+        BigInteger factorial = BigInteger.ONE;
+
+        for (int i = 1; i <= userinput; i++) {
+
+            factorial = factorial.multiply(BigInteger.valueOf(i));
+
+        }
+
+        System.out.println(factorial);
+
     }
-    
+
 }
