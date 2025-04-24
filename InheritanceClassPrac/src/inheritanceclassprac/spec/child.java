@@ -4,67 +4,32 @@ package inheritanceclassprac.spec;
 import inheritanceclassprac.male.MaleChoice;
 
 
-public class child extends MaleChoice{
+public class Child extends MaleChoice{
     
-    public String dressName;
-    public int size;
     
-    public int price;
-    public String location;
-    public int cell;
+    public String color;
 
-    public child(String dressName, int size, int price, String location, int cell) {
-        this.dressName = dressName;
-        this.size = size;
-        this.price = price;
-        this.location = location;
-        this.cell = cell;
+    public Child() {
     }
 
-    public String getDressName() {
-        return dressName;
+    public Child(String color) {
+        this.color = color;
     }
 
-    public void setDressName(String dressName) {
-        this.dressName = dressName;
+    public Child(String color, String dressName, String brand, int price, String location, int cell) {
+        super(dressName, brand, price, location, cell);
+        this.color = color;
     }
 
-    public int getSize() {
-        return size;
+    public String getColor() {
+        return color;
     }
 
-    public void setSize(int size) {
-        this.size = size;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public int getPrice() {
-        return price;
-    }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public int getCell() {
-        return cell;
-    }
-
-    public void setCell(int cell) {
-        this.cell = cell;
-    }
-
-    @Override
-    public String toString() {
-        return "child{" + "dressName=" + dressName + ", size=" + size + ", price=" + price + ", location=" + location + ", cell=" + cell + '}';
-    }
     
     
     
