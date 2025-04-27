@@ -12,23 +12,16 @@ public class MultiplicationBy2 {
         Scanner s=new Scanner(System.in);
             int userinput=s.nextInt();
             
-//            int i=1;
+        
+        int result=1;
            
             
             for( int i=1; i <=10; i++){
-               
-                int result = userinput*i;
-            
+                result=userinput*i;
+                 System.out.println(userinput+"x"+i+"="+result);
             }
-        String i = null;
-        int result;
-        
-        
-        System.out.println(userinput + "*" + i + " = " + result);
-                
-        
-        
-        
+       
+      
     }
     
 }
