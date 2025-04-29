@@ -11,9 +11,14 @@ import java.util.logging.Logger;
 public class LearnFileClassPract {
 
    
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
      
-       File f=new File("C:\\Users\\Admin\\Desktop\\Atik.txt");
+      // File f=new File("C:\\Users\\Admin\\Desktop\\atik\\Atik.txt");
+      
+      
+       File f=new File("C:\\Users\\Admin\\Desktop\\apple\\apple.txt");
+       
+       PrintWriter printWriter=new PrintWriter("C:\\Users\\Admin\\Desktop\\apple\\android.txt");
        
        
        
@@ -21,6 +26,7 @@ public class LearnFileClassPract {
             PrintWriter p = new PrintWriter(f);
             
             p.print("Assalamualikum Atik vai");
+            p.print("Assalamualikum");
             
             p.close();
             

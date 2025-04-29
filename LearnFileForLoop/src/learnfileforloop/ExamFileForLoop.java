@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;
 
-public class LearnFileForLoop {
+public class ExamFileForLoop {
 
     
     public static void main(String[] args) {
