@@ -11,11 +11,17 @@ public class InheVehicle2 {
        
         
         Truck t=new Truck();
-   
-        t.getRegularPrice();
-         t.getWeight();
+           t.setRegularPrice(5000);
+           t.setWeight(2010);
+           t.setSpeeed(80);
+           
+      //  t.getRegularPrice();
+      //   t.getWeight();
+      // t.getSpeeed();
        
-     System.out.println(t.getSalePrice());
+        
+      System.out.println(t.getSalePrice());
+        System.out.println("Speed : "+t.getSpeeed());
         
         
         
