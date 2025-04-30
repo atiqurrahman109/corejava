@@ -4,7 +4,7 @@ package inheretancevehicle;
 import inheretancevehicle.truck.Truck;
 
 
-public class Inheretancevehicle {
+public class InheretanceVehicle {
 
    
     public static void main(String[] args) {
