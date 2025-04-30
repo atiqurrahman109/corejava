@@ -11,7 +11,7 @@ public class LearnFileClass3 {
 
     public static void main(String[] args) {
 
-        File f = new File("F:\\oracle-db\\atik.txt");
+        File f = new File("F:\\reja.txt");
 
         try {
 
@@ -26,6 +26,26 @@ public class LearnFileClass3 {
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LearnFileClass3.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
+        
+        File s=new File("F:\\reja.txt");
+        
+        try {
+            Scanner p=new Scanner(s);
+        
+            while (p.hasNext()) {
+                System.out.println(p.nextLine());
+                
+            }
+        } 
+        
+        
+        catch (FileNotFoundException ex) {
+            Logger.getLogger(LearnFileClass3.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        
+        
     }
 
 }
