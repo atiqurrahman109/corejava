@@ -1,20 +1,46 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package greatesttwonumbers;
 
-/**
- *
- * @author User
- */
+import java.util.Scanner;
+
+
 public class GreatestTwoNumbers {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+     
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter your 1st number");
+        
+        int num1=s.nextInt();
+        System.out.println("Enter your 2nd Number");
+        int num2=s.nextInt();
+        
+        if(num1>num2){
+        
+            System.out.println("greater number"+num1);
+            
+        }
+        
+        else{
+            
+            System.out.println("greater number"+num2);
+        
+        }
+        if(num1<num2){
+        
+            System.out.println("smaller number"+num1);
+            
+        }
+        
+        else{
+            
+            System.out.println("smaller number"+num2);
+        
+        }
+        
+        
+        
     }
     
 }
