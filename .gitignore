@@ -146,4 +146,17 @@
 /ExamInputData/dist/
 /ReadAndWritePract/nbproject/private/
 /ReadAndWritePract/build/
+<<<<<<< HEAD
 /BubbleSort/build/
+=======
+/StudentClass/nbproject/private/
+/StudentClassPract/nbproject/private/
+/StudentClassPract/build/
+/MainClass/nbproject/private/
+/HomeOfCars/nbproject/private/
+/HomeOfCars/build/
+/Bank/nbproject/private/
+/BankHome/nbproject/private/
+/BankCalculator/nbproject/private/
+>>>>>>> fe63bf55748e901ab54e5dea4a519efd4d835454
+/Account/nbproject/private/
