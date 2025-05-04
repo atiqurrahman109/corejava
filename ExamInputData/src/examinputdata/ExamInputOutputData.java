@@ -10,7 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class ExamInputData {
+public class ExamInputOutputData {
 
    
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class ExamInputData {
             } 
             
              catch (FileNotFoundException ex) {
-            Logger.getLogger(ExamInputData.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ExamInputOutputData.class.getName()).log(Level.SEVERE, null, ex);
         }
         
           
@@ -46,7 +46,7 @@ public class ExamInputData {
         } 
         
         catch (FileNotFoundException ex) {
-            Logger.getLogger(ExamInputData.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ExamInputOutputData.class.getName()).log(Level.SEVERE, null, ex);
         }
        
         
