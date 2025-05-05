@@ -21,7 +21,7 @@ public class ExamInputOutputData {
         try {
             PrintWriter pw=new PrintWriter(f);
             
-            pw.print("exam near the door \n iruo4 39ir u9idow e8ur9 \n we3 iur4 3yreud euy ");
+            pw.print("exam near the door \n be prepaired for the exam \n");
             pw.print("how can i pass the exam");
             
             pw.close();
@@ -35,19 +35,19 @@ public class ExamInputOutputData {
           
         
           
-        File o= new  File("C:\\Users\\Admin\\Desktop\\exam.txt");
+//        File o= new  File("C:\\Users\\Admin\\Desktop\\exam.txt");
         
-        try {
-            Scanner s=new Scanner(o);
-            while(s.hasNext()){
-            
-                System.out.println(s.nextLine());
-            }
-        } 
-        
-        catch (FileNotFoundException ex) {
-            Logger.getLogger(ExamInputOutputData.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            Scanner s=new Scanner(o);
+//            while(s.hasNext()){
+//            
+//                System.out.println(s.nextLine());
+//            }
+//        } 
+//        
+//        catch (FileNotFoundException ex) {
+//            Logger.getLogger(ExamInputOutputData.class.getName()).log(Level.SEVERE, null, ex);
+//        }
        
         
         

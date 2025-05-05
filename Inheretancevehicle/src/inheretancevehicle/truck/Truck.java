@@ -1,11 +1,9 @@
-
 package inheretancevehicle.truck;
 
 import inheretancevehicle.Vehicle;
 
+public class Truck extends Vehicle {
 
-public class Truck extends Vehicle{
-    
     private int weight;
 
     public Truck() {
@@ -30,21 +28,11 @@ public class Truck extends Vehicle{
 
     @Override
     public double getPrice() {
-        if(weight>2000){
+        if (weight > 2000) {
             return regularPrice - (regularPrice * 0.1);
-        }
-        else{
+        } else {
             return regularPrice;
         }
     }
 
-    
-
-    
-   
-    
-  
-
-  
-    
 }

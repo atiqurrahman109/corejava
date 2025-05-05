@@ -1,9 +1,7 @@
-
 package inheretancevehicle;
 
 public class Vehicle {
 
-    
     public int speed;
     public double regularPrice;
     public String color;
@@ -41,11 +39,8 @@ public class Vehicle {
         this.color = color;
     }
 
-   
-    public double getPrice(){
+    public double getPrice() {
         return regularPrice;
     }
 
-    
 }
- 
